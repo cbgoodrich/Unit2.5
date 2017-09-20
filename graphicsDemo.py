@@ -19,8 +19,11 @@ greenEllipse = EllipseAsset(100, 50, blackOutline, green) #horiztonal axis, vert
 
 blackLine = LineAsset(50, 160, blackOutline) #x-endpoint, y-endpoint, lineStyle
 
+redTriangle = PolygonAsset([(0,0), (120, 180), (60, 300)], blackOutline, red)
+
 Sprite(redRectangle)
 Sprite(blueCircle, (50, 50))
 Sprite(greenEllipse, (200, 400))
 Sprite(blackLine)
+Sprite(redTriangle)
 App().run()
