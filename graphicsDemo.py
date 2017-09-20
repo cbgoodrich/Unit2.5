@@ -21,9 +21,12 @@ blackLine = LineAsset(50, 160, blackOutline) #x-endpoint, y-endpoint, lineStyle
 
 redTriangle = PolygonAsset([(0,0), (120, 180), (60, 300)], blackOutline, red)
 
+text = TextAsset("Fellas, is it gay?", fill=blue, style="bold 36pt Times")
+
 Sprite(redRectangle)
 Sprite(blueCircle, (50, 50))
 Sprite(greenEllipse, (200, 400))
 Sprite(blackLine)
 Sprite(redTriangle)
+Sprite(text, (300, 200))
 App().run()
