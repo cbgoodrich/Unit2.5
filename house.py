@@ -8,7 +8,7 @@ white = Color(0xFFFFFF, 1)
 brown = Color(0xD2691E, 1)
 black = Color(0x000000, 1)
 
-blackOutline = LineStyle(1.75, black)
+blackOutline = LineStyle(1.5, black)
 
 whiteHouse = RectangleAsset(400, 200, blackOutline, white)
 brownRoof = PolygonAsset([(0, 50), (200, 0), (400, 50)], blackOutline, brown)
